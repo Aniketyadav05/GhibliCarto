@@ -8,7 +8,8 @@ const MapComponent = () => {
   
   
   return (
-    <MapContainer center={[35.3606, 138.7274]} zoom={5} style={{ width: "100%", height: "100vh" }}
+    <div className='h-[90%] w-[100%] my-auto z-[1] mt-[10px]'>
+      <MapContainer center={[35.3606, 138.7274]} zoom={5} style={{ width: "100%", height: "100vh" }}
     zoomControl={false} >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -44,6 +45,7 @@ const MapComponent = () => {
 })}
       </MarkerClusterGroup>
     </MapContainer>
+    </div>
   );
 };
 
