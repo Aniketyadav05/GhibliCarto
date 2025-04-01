@@ -1,2 +1,21 @@
-@import "leaflet/dist/leaflet.css";
+@font-face {
+    font-family: "Perished";
+    src: url("./Fonts/TheyPerished.ttf");
+}
+@font-face {
+    font-family: "Menorca";
+    src: url("./Fonts/Menorca-LV7GG.otf");
+}
+@font-face {
+    font-family: "Vonique";
+    src: url("./Fonts/VoniqueBold.ttf");
+}
 @import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+.custom-popup .leaflet-popup-content-wrapper {
+    background-color: #333 !important; /* Dark background */
+    color: white !important; /* White text */
+    border: 2px solid #fff !important; /* White border */
+    border-radius: 8px !important; /* Rounded corners */
+  }
+  
