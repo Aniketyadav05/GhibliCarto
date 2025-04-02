@@ -14,6 +14,7 @@
     "@tailwindcss/vite": "^4.0.17",
     "@types/leaflet": "^1.9.17",
     "cesium": "^1.127.0",
+    "framer-motion": "^12.6.3",
     "gl-matrix": "^3.4.3",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
