@@ -1,13 +1,13 @@
 
 import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
-import FadeInWrapper from "./components/FadeInWrapper";
+import Loader from "./components/Loader";
 
 
 
 function App() {
   return (
-   <FadeInWrapper>
+   <Loader>
      <div className=" relative w-[100%] h-[100vh] bg-black">
       <Header />
       
@@ -17,7 +17,7 @@ function App() {
       </main>
     
     </div>
-   </FadeInWrapper>
+   </Loader>
   );
 }
 

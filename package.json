@@ -16,6 +16,7 @@
     "cesium": "^1.127.0",
     "framer-motion": "^12.6.3",
     "gl-matrix": "^3.4.3",
+    "gsap": "^3.12.7",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
     "mapbox-gl": "^3.11.0",
