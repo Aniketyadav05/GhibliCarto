@@ -12,17 +12,17 @@ const Loader: React.FC<LoaderProps> =({children}) => {
     const tl = gsap.timeline();
 
     tl.to(pageRef.current, {
-      y: "50vh",
+      y: "-100vh",
       scale: 0.65,
       duration: 0,
     })
       .to(pageRef.current, {
-        y: "10vh",
+        y: "20vh",
         duration: 1,
         delay: 1,
       })
       .to(pageRef.current, {
-        y: "vh",
+        y: "0vh",
         rotate: 0,
         scale: 1,
         duration: 0.8,
