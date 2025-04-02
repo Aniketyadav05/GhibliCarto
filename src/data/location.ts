@@ -8,7 +8,7 @@ import windRises from "./images/TheWindRises.png";
 import howlsMovingCastle from "./images/HowlsMovingCastle.png";
 import marnieWasThere from "./images/WhenMarnieWasThere.png";
 import whisperOfTheHeart from "./images/WhisperoftheHeart.png";
-import princessKaguya from "./images/TheTaleOfthePrincessKaguya.png";
+import princessKaguya from "./images/TheTaleofthePrincessKaguya.png";
 import fromUpOnPoppyHill from "./images/FromUponPoppyHill.png";
 import redTurtle from "./images/TheRedTurtle.png";
 import onlyYesterday from "./images/OnlyYesterday.png";
