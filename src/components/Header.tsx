@@ -4,7 +4,7 @@ import {  NavLink } from "react-router-dom";
 const Header = () => {
   
     return (
-      <header className="text-white mx-auto font-[Menorca] font-extrabold  top-0 left-0 self-center w-[70%] backdrop-blur-lg bg-white/5  border-white/20 shadow-md rounded-4xl  z-10">
+      <header className="text-white mx-auto font-[Menorca] font-extrabold py-2 left-0 self-center w-[70%] backdrop-blur-xl bg-white/2  border-white/20 shadow-md rounded-4xl  z-10">
         <div className="container mx-auto flex items-center justify-between px-6 py-4">
           <a href="/">
           <h1 className="text-xl tracking-widest hover:text-purple-700 ">GHIBLICARTO</h1>

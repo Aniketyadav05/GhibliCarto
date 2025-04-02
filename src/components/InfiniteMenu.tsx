@@ -1353,7 +1353,7 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
           left-[1.6em]
           top-1/2
           transform
-          translate-x-[40%]
+          translate-x-[35%]
           -translate-y-1/2
           transition-all
           ease-[cubic-bezier(0.25,0.1,0.25,1.0)]
