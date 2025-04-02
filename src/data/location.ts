@@ -22,7 +22,8 @@ export const MovieLocations = [
       "lat": 35.7432,
       "lng": 139.4621,
       "description": "Inspiration for the rural setting in My Neighbor Totoro.",
-      "image": neighbor
+      "image": neighbor,
+      "link": "/"
     },
     {
       "id": 2,
@@ -31,7 +32,8 @@ export const MovieLocations = [
       "lat": 25.10898,
       "lng": 121.8435,
       "description": "Jiufen is said to have inspired the bathhouse in Spirited Away.",
-      "image": spritedAway
+      "image": spritedAway,
+      link: "/"
     },
     {
       "id": 3,
@@ -40,7 +42,8 @@ export const MovieLocations = [
       "lat": 30.3424,
       "lng": 130.6586,
       "description": "Ancient forests of Yakushima inspired the setting of Princess Mononoke.",
-      "image": PrincessMononoke
+      "image": PrincessMononoke,
+      link: "/"
     },
     {
       "id": 4,
@@ -49,7 +52,8 @@ export const MovieLocations = [
       "lat": 52.1307,
       "lng": -3.7837,
       "description": "Hayao Miyazaki visited Welsh mining towns, which inspired Laputa.",
-      "image": CastleintheSky
+      "image": CastleintheSky,
+      link:"/"
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@ export const MovieLocations = [
       "lat": 57.6348,
       "lng": 18.2948,
       "description": "Visby inspired the European-style town in Kiki's Delivery Service.",
-      "image": kikisDelivery
+      "image": kikisDelivery,
+  
     },
     {
       "id": 6,
@@ -67,7 +72,8 @@ export const MovieLocations = [
       "lat": 34.3906,
       "lng": 133.3896,
       "description": "Tomonoura was the inspiration for the seaside setting in Ponyo.",
-      "image": ponyo
+      "image": ponyo,
+      link:"/"
     },
     {
       "id": 7,
@@ -76,7 +82,8 @@ export const MovieLocations = [
       "lat": 35.1815,
       "lng": 136.9066,
       "description": "The hometown of Jiro Horikoshi, the main character in The Wind Rises.",
-      "image": windRises
+      "image": windRises,
+      link: "/"
     },
     {
       "id": 8,
@@ -85,7 +92,8 @@ export const MovieLocations = [
       "lat": 48.0798,
       "lng": 7.3589,
       "description": "Colmar's European architecture inspired the city in Howl’s Moving Castle.",
-      "image": howlsMovingCastle
+      "image": howlsMovingCastle,
+      link: "/"
     },
     {
       "id": 9,
@@ -94,7 +102,8 @@ export const MovieLocations = [
       "lat": 43.0119,
       "lng": 144.2636,
       "description": "The wetlands of Kushiro inspired the setting of When Marnie Was There.",
-      "image": marnieWasThere
+      "image": marnieWasThere,
+      link: "/"
     },
     {
       "id": 10,
@@ -103,7 +112,8 @@ export const MovieLocations = [
       "lat": 35.6372,
       "lng": 139.4461,
       "description": "The real-life location of the town in Whisper of the Heart.",
-      "image": whisperOfTheHeart
+      "image": whisperOfTheHeart,
+      link: "/"
     },
     {
       "id": 11,
@@ -112,7 +122,8 @@ export const MovieLocations = [
       "lat": 35.0644,
       "lng": 138.9433,
       "description": "A historical location linked to the legend of Princess Kaguya.",
-      "image": princessKaguya
+      "image": princessKaguya,
+      link: "/"
     },
     {
       "id": 12,
@@ -121,7 +132,8 @@ export const MovieLocations = [
       "lat": 35.4437,
       "lng": 139.638,
       "description": "Yokohama inspired the port town setting in From Up on Poppy Hill.",
-      "image": fromUpOnPoppyHill
+      "image": fromUpOnPoppyHill,
+      link: "/"
     },
     {
       "id": 13,
@@ -130,7 +142,8 @@ export const MovieLocations = [
       "lat": -14.235,
       "lng": -170.7,
       "description": "A remote tropical island setting inspired The Red Turtle.",
-      "image": redTurtle
+      "image": redTurtle,
+      link: "/"
     },
     {
       "id": 14,
@@ -139,7 +152,8 @@ export const MovieLocations = [
       "lat": 38.2554,
       "lng": 140.3396,
       "description": "The rural countryside of Yamagata inspired the nostalgic setting.",
-      "image": onlyYesterday
+      "image": onlyYesterday,
+      link: "/"
     },
     {
       "id": 15,
@@ -148,6 +162,7 @@ export const MovieLocations = [
       "lat": 35.3156,
       "lng": 136.0702,
       "description": "The Cat Kingdom was inspired by whimsical elements of traditional Japan.",
-      "image": catReturns
+      "image": catReturns,
+      link: "/"
     }
 ]

@@ -1,4 +1,5 @@
 import { FaGithub, FaXTwitter } from "react-icons/fa6";
+import {  NavLink } from "react-router-dom";
 
 const Header = () => {
   
@@ -8,6 +9,18 @@ const Header = () => {
           <a href="/">
           <h1 className="text-xl tracking-widest hover:text-purple-700 ">GHIBLICARTO</h1>
           </a  >
+          <div className="flex flex-row space-x-4">
+          <NavLink  to="/"
+          className={({ isActive }) =>
+            isActive ? "text-yellow-400 font-bold" : "text-white" }>
+          <h1 className="text-xl tracking-widest hover:text-purple-700 ">MAP</h1>
+          </NavLink  >
+          <NavLink  to="/Movies"
+          className={({ isActive }) =>
+            isActive ? "text-yellow-400 font-bold" : "text-white" }>
+          <h1 className="text-xl tracking-widest hover:text-purple-700 ">MOVIES</h1>
+          </NavLink  >
+          </div>
           <nav className="space-x-6 flex items-center  ">
             
             <a href="https://x.com/AniketYadav05_" target="_blank" className=" hover:text-purple-700"><FaXTwitter/></a>
