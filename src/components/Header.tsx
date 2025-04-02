@@ -7,7 +7,7 @@ const Header = () => {
       <header className="text-white mx-auto font-[Menorca] font-extrabold py-2 left-0 self-center w-[70%] backdrop-blur-xl bg-white/2  border-white/20 shadow-md rounded-4xl  z-10">
         <div className="container mx-auto flex items-center justify-between px-6 py-4">
           <a href="/">
-          <h1 className="text-xl tracking-widest hover:text-purple-700 ">GHIBLICARTO</h1>
+          <h1 className="text-xl tracking-widest hover:text-purple-700 ">GHIBLIGO</h1>
           </a  >
           <div className="flex flex-row space-x-4">
           <NavLink  to="/"
