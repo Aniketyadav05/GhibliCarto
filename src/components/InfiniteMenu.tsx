@@ -1345,6 +1345,7 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
           {/* Title */}
           <h2
             className={`
+              text-purple-500
           select-none
           absolute
           font-black
@@ -1353,10 +1354,11 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
           left-[1.6em]
           top-1/2
           transform
-          translate-x-[35%]
+          translate-x-[25%]
           -translate-y-1/2
           transition-all
           ease-[cubic-bezier(0.25,0.1,0.25,1.0)]
+          font-[Perished]
           ${
             isMoving
               ? "opacity-0 pointer-events-none duration-[100ms]"
@@ -1370,6 +1372,8 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
           {/* Description */}
           <p
             className={`
+              text-purple-400
+              font-bold
           select-none
           absolute
           max-w-[20ch]
@@ -1381,7 +1385,7 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
           ${
             isMoving
               ? "opacity-0 pointer-events-none duration-[100ms] translate-x-[-60%] -translate-y-1/2"
-              : "opacity-100 pointer-events-auto duration-[500ms]  translate-x-[-80%] -translate-y-1/2 "
+              : "opacity-100 pointer-events-auto duration-[500ms]  translate-x-[-50%] -translate-y-1/2 "
           }
         `}
           >

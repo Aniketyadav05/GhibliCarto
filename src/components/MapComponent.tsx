@@ -2,10 +2,11 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { MovieLocations } from '../data/location';
 import L from 'leaflet';
 import MarkerClusterGroup  from 'react-leaflet-markercluster';
+import { useNavigate } from 'react-router-dom';
 
 const MapComponent = () => {
   const hoveredMarker = 0
-  
+  const navigate = useNavigate()
   
   return (
     <div className='h-[100vh] w-[100%] z-[1]  '>
@@ -40,11 +41,12 @@ const MapComponent = () => {
         closeOnClick={false}
         
         >
-          <div className='bg-amber-300 p-4 font-[Menorca]'>
-            <h1 className='text-[16px] text-[#333] font-[Perished]'>{name.movie}</h1>
-            <h2 className='text-[14px] text-[#333]'>{name.location}</h2>
-            <p className='text-[12px] text-[#777]'>{name.description}</p>
+          <div className='bg-amber-300 p-4 font-[Menorca] flex flex-col items-center justify-center mt-'>
+            <h1 className='text-3xl font-bold text-[#333] font-[Perished]'>{name.movie}</h1>
+            <h2 className='text-xl font-bold text-[#333]'>{name.location}</h2>
+            <p className='text-l font-bold text-black'>{name.description}</p>
             <img className='max-w-[100%] h-auto mt-2.5' src={name.image} alt="" width="100%"/>
+            <button className='bg-purple-700 p-2 rounded-lg text-3xl border-2 mt-4 cursor-pointer' onClick={() => navigate(`/Movies/${name.id}`)}>More.....</button>          
           </div>
         </Popup>
       </Marker>
