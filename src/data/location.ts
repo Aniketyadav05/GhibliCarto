@@ -7,7 +7,7 @@ import ponyo from "./images/Ponyo.png";
 import windRises from "./images/TheWindRises.png";
 import howlsMovingCastle from "./images/HowlsMovingCastle.png";
 import marnieWasThere from "./images/WhenMarnieWasThere.png";
-import whisperOfTheHeart from "./images/WhisperOfTheHeart.png";
+import whisperOfTheHeart from "./images/WhisperoftheHeart.png";
 import princessKaguya from "./images/TheTaleOfThePrincessKaguya.png";
 import fromUpOnPoppyHill from "./images/FromUpOnPoppyHill.png";
 import redTurtle from "./images/TheRedTurtle.png";
