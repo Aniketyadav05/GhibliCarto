@@ -1398,14 +1398,15 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
             className={`
           absolute
           left-1/2
+          
           z-10
           w-[60px]
           h-[60px]
           grid
           place-items-center
-          bg-[#00ffff]
-          border-[5px]
-          border-black
+          bg-purple-600
+          border-[2px]
+          border-purple-400
           rounded-full
           cursor-pointer
           transition-all
@@ -1413,11 +1414,11 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
           ${
             isMoving
               ? "bottom-[-80px] opacity-0 pointer-events-none duration-[100ms] scale-0 -translate-x-1/2"
-              : "bottom-[3.8em] opacity-100 pointer-events-auto duration-[500ms] scale-100 -translate-x-1/2"
+              : "bottom-[4.8em] opacity-100 pointer-events-auto duration-[500ms] scale-100 -translate-x-1/2"
           }
         `}
           >
-            <p className="select-none relative text-[#060606] top-[2px] text-[26px]">
+            <p className="select-none relative text-black top-[2px] text-[26px]">
               &#x2197;
             </p>
           </div>

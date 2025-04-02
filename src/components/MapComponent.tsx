@@ -26,27 +26,26 @@ const MapComponent = () => {
         position={[name.lat, name.lng]}
         icon={L.icon({
           iconUrl: name.image,
-          iconSize: [32 * scale, 32 * scale],  // Adjust size based on hover
+          iconSize: [50 * scale, 50 * scale],  // Adjust size based on hover
           iconAnchor: [16, 32],
-          popupAnchor: [0, -32],
+          
         })}
         eventHandlers={{
           click: (e) => {
-            e.target._map.flyTo([name.lat, name.lng], 10);
+            e.target._map.flyTo([name.lat, name.lng], 12);
           },
         }}
       >
         <Popup
         autoClose={false}
         closeOnClick={false}
-        
         >
-          <div className='bg-amber-300 p-4 font-[Menorca] flex flex-col items-center justify-center mt-'>
-            <h1 className='text-3xl font-bold text-[#333] font-[Perished]'>{name.movie}</h1>
-            <h2 className='text-xl font-bold text-[#333]'>{name.location}</h2>
-            <p className='text-l font-bold text-black'>{name.description}</p>
+          <div className='bg-purple-400 p-5 flex flex-col items-center justify-center '>
+            <h1 className='text-2xl font-bold text-white font-[Perished] mb-2'>{name.movie}</h1>
+            <h2 className='text-xl font-bold text-white'>{name.location}</h2>
+            <p className='text-l font-extrabold text-black'>{name.description}</p>
             <img className='max-w-[100%] h-auto mt-2.5' src={name.image} alt="" width="100%"/>
-            <button className='bg-purple-700 p-2 rounded-lg text-3xl border-2 mt-4 cursor-pointer' onClick={() => navigate(`/Movies/${name.id}`)}>More.....</button>          
+            <button className='font-[Vonique] text-purple-700 bg-white p-2 rounded-lg text-3xl border-2 mt-4 cursor-pointer' onClick={() => navigate(`/Movies/${name.id}`)}>More.....</button>          
           </div>
         </Popup>
       </Marker>

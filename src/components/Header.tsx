@@ -12,13 +12,13 @@ const Header = () => {
           <div className="flex flex-row space-x-4">
           <NavLink  to="/"
           className={({ isActive }) =>
-            isActive ? "text-yellow-400 font-bold" : "text-white" }>
-          <h1 className="text-xl tracking-widest hover:text-purple-700 ">MAP</h1>
+            isActive ? "text-purple-700 font-bold" : "text-white" }>
+          <h1 className="text-xl tracking-widest hover:text-purple-500 ">MAP</h1>
           </NavLink  >
           <NavLink  to="/Movies"
           className={({ isActive }) =>
-            isActive ? "text-yellow-400 font-bold" : "text-white" }>
-          <h1 className="text-xl tracking-widest hover:text-purple-700 ">MOVIES</h1>
+            isActive ? "text-purple-700 font-bold text-xl" : "text-white" }>
+          <h1 className="text-xl tracking-widest hover:text-purple-500 ">MOVIES</h1>
           </NavLink  >
           </div>
           <nav className="space-x-6 flex items-center  ">
