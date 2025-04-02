@@ -20,10 +20,9 @@
   }
 body{
     background-color: black;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE/Edge */
-    overflow-y: auto; 
-    overflow: hidden;
+    overflow-x: hidden;
+  
+   
     height: 100%;
 }
 .shiny-text {

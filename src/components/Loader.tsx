@@ -8,7 +8,7 @@ const Loader: React.FC<LoaderProps> =({children}) => {
   const pageRef = useRef<HTMLDivElement | null>(null);
   
   useEffect(() => {
-    if (!pageRef.current) return;
+   
     const tl = gsap.timeline();
 
     tl.to(pageRef.current, {
@@ -22,7 +22,7 @@ const Loader: React.FC<LoaderProps> =({children}) => {
         delay: 1,
       })
       .to(pageRef.current, {
-        y: "0vh",
+        y: "vh",
         rotate: 0,
         scale: 1,
         duration: 0.8,
@@ -30,7 +30,7 @@ const Loader: React.FC<LoaderProps> =({children}) => {
       });
   }, []);
 
-  return <div ref={pageRef} className='overflow-hidden'>{children}</div>;
+  return <div ref={pageRef} className=''>{children}</div>;
 }
 
 export default Loader

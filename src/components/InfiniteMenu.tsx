@@ -1350,7 +1350,7 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
           absolute
           font-black
           max-w-[6ch]
-          [font-size:4rem]
+          [font-size:45px]
           left-[1.6em]
           top-1/2
           transform
@@ -1377,7 +1377,7 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
           select-none
           absolute
           max-w-[20ch]
-          text-[1.5rem]
+          text-[18px]
           top-1/2
           right-[1%]
           transition-all

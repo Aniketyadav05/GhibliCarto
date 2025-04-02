@@ -34,7 +34,7 @@ function App() {
     }
   return (
    <Loader>
-     <div className=" relative w-[100%] h-[100vh] bg-black">
+     <div className="relative w-[100%] h-[100vh] bg-black">
       <Header />
       
       <main>
